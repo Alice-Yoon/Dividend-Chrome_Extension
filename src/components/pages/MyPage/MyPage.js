@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
 
 function MyPage() {
     return (
@@ -8,4 +9,6 @@ function MyPage() {
     )
 }
 
-export default MyPage;
+export default styled(MyPage)`
+
+`;
